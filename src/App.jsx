@@ -11,6 +11,9 @@ import Fog from "./Assets/Fog.mp4";
 import Snow from "./Assets/Snow.mp4";
 import Thunder from "./Assets/Thunder.mp4";
 
+import { FaRegCalendarTimes } from "react-icons/fa";
+import { IoMdTime } from "react-icons/io";
+
 const apiKey = "9d8cd23a62339c290c09673fd03df8e8";
 
 const App = () => {
@@ -191,8 +194,8 @@ const App = () => {
             )}
 
             <div className="datetime">
-              <p>{dateString}</p>
-              <p>{timeString}</p>
+              <p><FaRegCalendarTimes />{dateString}</p>
+              <p><IoMdTime />{timeString}</p>
             </div>
 
             <div className="temp">
