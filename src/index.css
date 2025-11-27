@@ -142,6 +142,20 @@ body {
     font-size: 18px;
     opacity: 0.85;
 }
+.datetime {
+  display: flex;
+  flex-direction: row;      /* items in a row */
+  align-items: center;      /* vertically center items */
+  gap: 20px;                /* space between multiple <p> tags */
+}
+
+.datetime p {
+  display: flex;
+  flex-direction: row;      /* icon and text in a row */
+  align-items: center;      /* vertically center icon and text */
+  gap: 6px;                 /* space between icon and text */
+  margin: 0;                /* remove default <p> margin */
+}
 
 /* ------------------------------
    🌥 Weather Output Box
